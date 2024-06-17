@@ -87,14 +87,14 @@ Có 2 bộ dữ liệu được sử dụng:
 
 <table><tr><th colspan="1" rowspan="2" valign="top"><p></p><p>Phương pháp</p></th><th colspan="2" valign="top">Val set</th><th colspan="2" valign="top">Test set</th></tr>
 <tr><td colspan="1" valign="top">MAE</td><td colspan="1" valign="top">RMSE</td><td colspan="1" valign="top">MAE</td><td colspan="1" valign="top">RMSE</td></tr>
-<tr><td colspan="1" valign="top">Mean </td><td colspan="1" valign="top">53\.38 </td><td colspan="1" valign="top">124\.53</td><td colspan="1" valign="top">47\.55</td><td colspan="1" valign="top">147\.67</td></tr>
-<tr><td colspan="1" valign="top">Median </td><td colspan="1" valign="top">48\.68</td><td colspan="1" valign="top">129\.70</td><td colspan="1" valign="top">47\.73</td><td colspan="1" valign="top">152\.46</td></tr>
-<tr><td colspan="1" valign="top">FR few-shot detector</td><td colspan="1" valign="top">45\.45</td><td colspan="1" valign="top">112\.53</td><td colspan="1" valign="top">41\.64</td><td colspan="1" valign="top">141\.04</td></tr>
-<tr><td colspan="1" valign="top">FSOD few-shot detector</td><td colspan="1" valign="top">36\.36</td><td colspan="1" valign="top">115\.00</td><td colspan="1" valign="top">32\.53</td><td colspan="1" valign="top">140\.65</td></tr>
-<tr><td colspan="1" valign="top">Pre-trained GMN</td><td colspan="1" valign="top">60\.56</td><td colspan="1" valign="top">137\.78</td><td colspan="1" valign="top">62\.69</td><td colspan="1" valign="top">159\.67</td></tr>
-<tr><td colspan="1" valign="top">GMN</td><td colspan="1" valign="top">29\.66</td><td colspan="1" valign="top">89\.81</td><td colspan="1" valign="top">26\.52</td><td colspan="1" valign="top">124\.57</td></tr>
-<tr><td colspan="1" valign="top">MAML</td><td colspan="1" valign="top">25\.54</td><td colspan="1" valign="top">79\.44</td><td colspan="1" valign="top">24\.90</td><td colspan="1" valign="top">112\.68</td></tr>
-<tr><td colspan="1" valign="top">FamNet (Provided)</td><td colspan="1" valign="top">24\.23</td><td colspan="1" valign="top">70\.81</td><td colspan="1" valign="top">22\.54</td><td colspan="1" valign="top">101\.27</td></tr>
+<tr><td colspan="1" valign="top">Mean </td><td colspan="1" valign="top">53.38 </td><td colspan="1" valign="top">124.53</td><td colspan="1" valign="top">47.55</td><td colspan="1" valign="top">147.67</td></tr>
+<tr><td colspan="1" valign="top">Median </td><td colspan="1" valign="top">48.68</td><td colspan="1" valign="top">129.70</td><td colspan="1" valign="top">47.73</td><td colspan="1" valign="top">152.46</td></tr>
+<tr><td colspan="1" valign="top">FR few-shot detector</td><td colspan="1" valign="top">45.45</td><td colspan="1" valign="top">112.53</td><td colspan="1" valign="top">41.64</td><td colspan="1" valign="top">14.04</td></tr>
+<tr><td colspan="1" valign="top">FSOD few-shot detector</td><td colspan="1" valign="top">36.36</td><td colspan="1" valign="top">115.00</td><td colspan="1" valign="top">32.53</td><td colspan="1" valign="top">140.65</td></tr>
+<tr><td colspan="1" valign="top">Pre-trained GMN</td><td colspan="1" valign="top">60\.56</td><td colspan="1" valign="top">137.78</td><td colspan="1" valign="top">62.69</td><td colspan="1" valign="top">159.67</td></tr>
+<tr><td colspan="1" valign="top">GMN</td><td colspan="1" valign="top">29.66</td><td colspan="1" valign="top">89.81</td><td colspan="1" valign="top">26.52</td><td colspan="1" valign="top">124.57</td></tr>
+<tr><td colspan="1" valign="top">MAML</td><td colspan="1" valign="top">25.54</td><td colspan="1" valign="top">79.44</td><td colspan="1" valign="top">24.90</td><td colspan="1" valign="top">112.68</td></tr>
+<tr><td colspan="1" valign="top">FamNet (Provided)</td><td colspan="1" valign="top">24.23</td><td colspan="1" valign="top">70.81</td><td colspan="1" valign="top">22.54</td><td colspan="1" valign="top">101.27</td></tr>
 <tr><td colspan="1" valign="top"><b>FamNet (us)</b></td><td colspan="1" valign="top"><b>24.76</b></td><td colspan="1" valign="top"><b>78.07</b></td><td colspan="1" valign="top"><b>22.46</b></td><td colspan="1" valign="top"><b>106.33</b></td></tr>
 </table>
 
@@ -102,10 +102,10 @@ Có 2 bộ dữ liệu được sử dụng:
 
 <table><tr><th colspan="1" rowspan="2" valign="top"><p></p><p>Phương pháp</p></th><th colspan="2" valign="top">Val-COCO Set</th><th colspan="2" valign="top">Test-COCO Set</th></tr>
 <tr><td colspan="1" valign="top">MAE</td><td colspan="1" valign="top">RMSE</td><td colspan="1" valign="top">MAE</td><td colspan="1" valign="top">RMSE</td></tr>
-<tr><td colspan="1" valign="top">Faster R-CNN </td><td colspan="1" valign="top">52\.79 </td><td colspan="1" valign="top">172\.46 </td><td colspan="1" valign="top">36\.20 </td><td colspan="1" valign="top">79\.59</td></tr>
-<tr><td colspan="1" valign="top">RetinaNet</td><td colspan="1" valign="top">63\.57 </td><td colspan="1" valign="top">174\.36 </td><td colspan="1" valign="top">52\.67 </td><td colspan="1" valign="top">85\.86</td></tr>
-<tr><td colspan="1" valign="top">Mask R-CNN</td><td colspan="1" valign="top">52\.51 </td><td colspan="1" valign="top">172\.21 </td><td colspan="1" valign="top">35\.56 </td><td colspan="1" valign="top">80\.00</td></tr>
-<tr><td colspan="1" valign="top">FamNet (Provided)</td><td colspan="1" valign="top">40\.98</td><td colspan="1" valign="top">112\.65 </td><td colspan="1" valign="top">23\.17 </td><td colspan="1" valign="top">46\.55</td></tr>
+<tr><td colspan="1" valign="top">Faster R-CNN </td><td colspan="1" valign="top">52.79 </td><td colspan="1" valign="top">172.46 </td><td colspan="1" valign="top">36.20 </td><td colspan="1" valign="top">79.59</td></tr>
+<tr><td colspan="1" valign="top">RetinaNet</td><td colspan="1" valign="top">63.57 </td><td colspan="1" valign="top">174.36 </td><td colspan="1" valign="top">52.67 </td><td colspan="1" valign="top">85.86</td></tr>
+<tr><td colspan="1" valign="top">Mask R-CNN</td><td colspan="1" valign="top">52.51 </td><td colspan="1" valign="top">172.21 </td><td colspan="1" valign="top">35.56 </td><td colspan="1" valign="top">80.00</td></tr>
+<tr><td colspan="1" valign="top">FamNet (Provided)</td><td colspan="1" valign="top">40.98</td><td colspan="1" valign="top">112.65 </td><td colspan="1" valign="top">23.17 </td><td colspan="1" valign="top">46.55</td></tr>
 <tr><td colspan="1" valign="top"><b>FamNet (us)</b></td><td colspan="1" valign="top"><b>43.92</b></td><td colspan="1" valign="top"><b>129.07</b></td><td colspan="1" valign="top"><b>25.89</b></td><td colspan="1" valign="top"><b>55.34</b></td></tr>
 </table>
 
